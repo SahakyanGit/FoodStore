@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodStore.WebUI", "FoodStore.WebUI\FoodStore.WebUI.csproj", "{E51ADD1E-5BEB-4650-9E5E-601003D1E238}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodStore.UnitTests", "FoodStore.UnitTests\FoodStore.UnitTests.csproj", "{D5662601-C7C8-4E39-8183-A22A22E9F643}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodStore.Domain", "FoodStore.Domain\FoodStore.Domain.csproj", "{CF05EA9B-F171-4673-9E75-7514F25BB445}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E51ADD1E-5BEB-4650-9E5E-601003D1E238}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E51ADD1E-5BEB-4650-9E5E-601003D1E238}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E51ADD1E-5BEB-4650-9E5E-601003D1E238}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E51ADD1E-5BEB-4650-9E5E-601003D1E238}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5662601-C7C8-4E39-8183-A22A22E9F643}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5662601-C7C8-4E39-8183-A22A22E9F643}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5662601-C7C8-4E39-8183-A22A22E9F643}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5662601-C7C8-4E39-8183-A22A22E9F643}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF05EA9B-F171-4673-9E75-7514F25BB445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF05EA9B-F171-4673-9E75-7514F25BB445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF05EA9B-F171-4673-9E75-7514F25BB445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF05EA9B-F171-4673-9E75-7514F25BB445}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

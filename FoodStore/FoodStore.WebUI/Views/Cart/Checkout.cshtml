@@ -1,0 +1,77 @@
+﻿@model FoodStore.Domain.Entities.ShippingDetails
+
+@{
+    ViewBag.Title = "FoodStore: Checkout";
+}
+
+
+<h2>Check out now</h2>
+<p>Please enter your details, and we'll ship your goods right away!</p>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary()
+   <h3>Ship to</h3>
+    <div class="form-group">
+        <label>Name:</label>
+        @Html.TextBoxFor(x=>x.Name, new { @class = "form-control"} )
+    </div>
+    <div class="form-group">
+        <label>Last Name:</label>
+        @Html.TextBoxFor(x=>x.LastName,new {@class = "form-control"})
+    </div>
+    <div class="form-group">
+        <label>Username:</label>
+        @Html.TextBoxFor(x => x.Username, new { @class = "form-control" })
+    </div>
+
+    <h3>Personal</h3>
+
+    <div class="form-group">
+        <label>Email</label>
+        @Html.TextBoxFor(x => x.Email, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        <label>Phone:</label>
+        @Html.TextBoxFor(x => x.Phone, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>OrderDate:</label>
+        @Html.TextBoxFor(x => x.OrderDate, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Total:</label>
+        @Html.TextBoxFor(x => x.OrderDate, new { @class = "form-control" })
+    </div>
+
+    <h3>Address</h3>
+    <div class="form-group">
+        <label>Adress:</label>
+        @Html.TextBoxFor(x => x.Address, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Country:</label>
+        @Html.TextBoxFor(x => x.Country, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>City:</label>
+        @Html.TextBoxFor(x => x.City, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>State:</label>
+        @Html.TextBoxFor(x => x.State, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Postal Code:</label>
+        @Html.TextBoxFor(x => x.PostalCode, new { @class = "form-control" })
+    </div>
+
+
+
+    
+
+    <div class="text-center">
+        <input class="btn btn-primary" type="submit" value="Complete order" />
+    </div>
+}
