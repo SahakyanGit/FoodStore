@@ -184,7 +184,7 @@
     <Content Include="Resources\Images\Honey.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Resources\Images\Ktkat.png">
+    <Content Include="Resources\Images\Kitkat.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Resources\Images\Milk.png">

@@ -32,6 +32,7 @@ namespace FoodStore.Domain.Entities
 
         public string Username { get; set; }
 
+        [RegularExpression("^[0-9]*$", ErrorMessage = "Phone number must be numeric")]
         public string Phone { get; set; }
 
         [RegularExpression(".+\\@.+\\..+", ErrorMessage = "Please enter a valid email address")]
